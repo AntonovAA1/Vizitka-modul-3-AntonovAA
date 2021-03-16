@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(29, 215, 248);
+    font-family: sans-serif;
+  }
+a:hover {
+    background-color: rgb(148, 105, 228);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+li:hover {
+    background: orange;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+div:hover {
+    background-color: rgb(81, 236, 81);
+    border-color: blue;  
+    border-radius: 50px; 
+    transition-duration: 0.8s;
+   }
+
+.title, .img-photo {
+    cursor: not-allowed;
+}
+
+.header {
+    padding: 20px;
+    background-color: rgb(241, 168, 205);
+    border-bottom: 1px solid rgb(97, 41, 41);
+    text-align: center;
+    font-family: serif;
+  }
+
+.title {
+    text-align: center;
+    background-color: rgb(179, 175, 162);
+    color: rgb(14, 12, 112);
+    font-family: serif;
+}
+
+.img-photo {
+    background-color: rgb(234, 236, 99);
+    padding: 15px;
+    text-align: center;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(94, 224, 82);
+    border-radius: 150px; 
+      
+}
+
+.header-link {
+    background: rgb(165, 243, 77);
+    color: rgb(34, 73, 95);
+    }
+
+.main {
+        border-bottom: 1px solid rgb(97, 41, 41);
+        background-color: rgb(199, 187, 226);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2vw;
+    }
+
+.footer {
+    text-align: center;
+    background-color: rgb(230, 125, 55);
+}
+#about, #skills, #developer, #contacts {
+    font-family: serif;
+} 
